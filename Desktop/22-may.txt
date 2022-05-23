@@ -1,0 +1,61 @@
+what nest?
+..............
+
+.alias
+.remote branching
+.stashing
+.rebase
+.tagging
+========================to  get the github changes in 
+
+.git pich origin master
+.git pull origin master
+.git log --oneline --all --graph
+.git push origin master
+..............................
+p4merge
+perfource ..theough google
+helix visual merge  get and dwonload
+instal and set a path
+
+. git config --global difftool p4merge
+. git config --global difftool.p4merge.path "path to p4merge"
+. git config --globaldifftool.prompt flase
+."change to path forward \ to backword / p4merge.exe"
+. git diftool
+. git mergetool
+
+@ alias is nothing but big comand to change small comand
+
+................................................................................
+Rebase
+------
+
+git rebase new-feature
+git stash push
+git stash list
+git stash apply
+git stash apply stash@{1}
+git stash drop
+git stash pop
+git stash -u
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+clean 
+git clean -f    files
+git clean -f -d  directory
+git clean -f -d -x  ingkowring files
+git clean -n
+or
+git clear 
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+
+git tag
+git tag name
+git tag -a tagname
+git tag -a tagename commit
+git tag-a tagname-f newcommit
+git push origin tagname
+git push origin --tags
+git tag-list "tage name*"
+
+

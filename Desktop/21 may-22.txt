@@ -1,0 +1,60 @@
+GIT
+====
+
+LINUS TORVALDS FOUNDER OF LINUX 
+LINUX KERNEL
+BITKEEPER
+UNPLESENT PRESON IS CALL GIT
+OPEN SOURCE
+https:gitforwindows
+
+@ git config --list
+
+@ notepad++org
+@ notepad++ .bash_profile
+@ alias npp=notepad++
+@ git config core.editor "notepad+=.exe_multilnst -nosession
+@ git config --global --list
+@ git config -global -e
+@ git config --global core.editor"mate-w"
+
+what actually happens in github or gitlab
+-----------------------------------------
+terms
+=====
+. commit
+. clone
+. tracked/untracked files
+. branch
+. master
+. origin
+==============
+git clone url
+ls
+cd sample-project/
+ls
+ls -al
+git clone url file name
+-----------------------------------------------------
+local project git repositor /  steps of git
+. git init
+. git add
+. git commithttps://github.com/vijaysreenivast/first.git
+. git remote add file namae
+. git push origin master
+......................................................
+lifecycle of git 
+
+tracked or untracked
+tracked-   unmodified
+           modified
+           staged
+................................
+.git ignore
+ .git log
+ . git --p
+gitlog--prety=onrline
+
+
+
+

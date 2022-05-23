@@ -1,0 +1,115 @@
+GIT
+====
+
+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
+
+
+git userid :vijaysreenivast
+==============================================
+
+
+How install git on linux box
+------------------------------
+#sudo su -
+[root@ip-172-31-8-99 ~]#
+
+#yum install git -y
+#git --version
+
+2. initilize the git. so that it will create .git repository
+
+#git init .    . represents the current working directory
+
+
+3. check the whether .git directoty created or not
+#ls -al
+
+drwxr-xr-x  7 root root 119 May 20 13:24 .git
+drwxr-xr-x  2 root root   6 May 20 12:40 kalapana
+-rw-r--r--  1 root root   0 May 20 12:35 nay
+
+4. create some files
+
+#touch file1 file 2 file3
+chek files has been creted or not
+#ll or ls -ltr
+
+5. check status of files
+
+[root@ip-172-31-8-99 ~]# git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .bash_logout
+        .bash_profile
+        .bashrc
+        .cshrc
+        .ssh/
+        .tcshrc
+        .viminfo
+        file1
+        file2
+        file3
+        nayni
+        papar
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+5. add these file git reposity to track
+#git add files-name 
+
+
+[root@ip-172-31-8-99 ~]# git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1
+        new file:   file2
+        new file:   file3
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .bash_logout
+        .bash_profile
+        .bashrc
+        .cshrc
+        .ssh/
+        .tcshrc
+        .viminfo
+        nayni
+        papar
+
+[root@ip-172-31-8-99 ~]#
+
+
+
+6. if you want add all files in a directory
+#git add .
+
+7. commit the files what ever you added
+#git commit -m " message" file-name 
+
+or
+if you want to commit all files in a directory
+#git commit -m "message" .
+
+8. then push the commited files to Github
+
+#git remote add origin URL_github_repo
+
+9.push the files from local repositoty to GIThub.
+
+#git push -u origin branch-name (master)
+
+
+
